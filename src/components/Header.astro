@@ -1,0 +1,20 @@
+---
+import CatMark from './CatMark.astro';
+import site from '../site.json';
+const wa = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}`;
+---
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Nekotech, inicio">
+      <CatMark />
+      <span class="brand-word" aria-hidden="true">nekotech</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#agentes">Agentes</a>
+      <a href="#desarrollo">Desarrollo</a>
+      <a href="#como-trabajamos">Cómo trabajamos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-primary" href={wa} target="_blank" rel="noopener">Agenda una demo</a>
+  </div>
+</header>

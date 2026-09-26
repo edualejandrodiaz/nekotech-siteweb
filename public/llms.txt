@@ -1,0 +1,27 @@
+# Nekotech
+
+> Nekotech es un estudio chileno que crea agentes de inteligencia artificial y software a medida para pequeñas y medianas empresas, con soporte técnico continuo después de la entrega.
+
+## Productos
+
+- Agente de Agenda: agenda, confirma, recuerda y reprograma citas y reservas por WhatsApp y por el sitio web del cliente, 24/7. Pensado para clínicas, centros de estética, talleres y estudios profesionales.
+- Agente de Canales: responde preguntas frecuentes en WhatsApp, Instagram y Facebook, prepara y programa publicaciones en redes sociales y deriva a una persona cuando hace falta. Pensado para comercio, servicios e inmobiliarias.
+
+## Servicios de desarrollo a medida
+
+- Plataformas SaaS
+- ERP (inventario, ventas, compras, reportes)
+- CRM conectado a WhatsApp
+- Aplicaciones móviles iOS y Android
+
+## Cómo trabaja
+
+Diagnóstico, prototipo con casos reales, puesta en marcha con capacitación y soporte continuo.
+
+## Tecnologías
+
+n8n, WhatsApp Cloud API, AWS, Node.js, Angular, Astro, Laravel, Spring, Docker, Capacitor.
+
+## Contacto
+
+- Sitio: https://nekotech.cl

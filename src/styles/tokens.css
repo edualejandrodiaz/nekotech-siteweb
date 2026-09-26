@@ -1,0 +1,70 @@
+/* Tokens del Design System Nekotech (v1). Mantén los mismos nombres que en tokens.json. */
+:root {
+  color-scheme: light;
+  --surface: #F4F6F8;
+  --surface-raised: #FFFFFF;
+  --surface-inverse: #0F172A;
+  --ink: #1F2937;
+  --ink-muted: #4B5563;
+  --ink-inverse: #F4F6F8;
+  --marca: #1F2937;
+  --ambar: #F2A93B;
+  --on-ambar: #0F172A;
+  --ambar-texto: #94590A;
+  --ambar-suave: #FDEBCB;
+  --senal: #0B7564;
+  --senal-suave: #D5F2EC;
+  --peligro: #B42318;
+  --line: #D5DAE1;
+  --line-strong: #6B7280;
+  --focus: #94590A;
+
+  /* Bloque oscuro fijo (hero y banda de soporte): Noche en ambos temas */
+  --noche: #0F172A;
+  --noche-raised: #182235;
+  --noche-line: #2A3547;
+  --noche-ink: #E8EBEF;
+  --noche-muted: #A7B0BE;
+  --bigote: #E5E7EB;
+
+  --font-display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Hanken Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --surface: #0F172A;
+    --surface-raised: #182235;
+    --surface-inverse: #E8EBEF;
+    --ink: #E8EBEF;
+    --ink-muted: #A7B0BE;
+    --ink-inverse: #0F172A;
+    --marca: #E5E7EB;
+    --ambar: #F5B14C;
+    --ambar-texto: #F5B14C;
+    --ambar-suave: #3B2B12;
+    --senal: #3CC8B0;
+    --senal-suave: #123A35;
+    --peligro: #F97066;
+    --line: #2A3547;
+    --line-strong: #7C8799;
+    --focus: #F5B14C;
+    --noche: #0A1020;
+    --noche-raised: #151F31;
+  }
+}

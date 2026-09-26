@@ -1,0 +1,49 @@
+---
+import site from '../site.json';
+const wa = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}`;
+---
+<section class="section" id="agentes">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="label">Productos</p>
+      <h2 class="display">Dos agentes para empezar</h2>
+      <p class="lead">Cada agente se configura con tus horarios, tus precios y la forma en que tu empresa habla. Trabaja en los canales que tus clientes ya usan.</p>
+    </div>
+    <div class="agents">
+      <article class="agent">
+        <div class="agent-top">
+          <span class="badge badge-ambar">Producto estrella</span>
+          <span class="badge badge-senal">24/7</span>
+        </div>
+        <h3>Agente de Agenda</h3>
+        <p class="muted">Agenda, confirma y recuerda citas por WhatsApp y por tu sitio web, a cualquier hora.</p>
+        <ul class="checks">
+          <li>Reservas desde WhatsApp o tu sitio, sin llamadas.</li>
+          <li>Confirmaciones y recordatorios automáticos para reducir inasistencias.</li>
+          <li>Reprogramaciones y cancelaciones que se resuelven solas.</li>
+          <li>Se conecta con tu calendario o tu sistema de reservas.</li>
+        </ul>
+        <p class="ideal"><b>Ideal para</b>clínicas, centros de estética, talleres y estudios profesionales.</p>
+      </article>
+      <article class="agent">
+        <div class="agent-top">
+          <span class="badge badge-ambar">Producto estrella</span>
+          <span class="badge badge-senal">Multicanal</span>
+        </div>
+        <h3>Agente de Canales</h3>
+        <p class="muted">Responde mensajes y mantiene tus redes activas, con la voz de tu marca.</p>
+        <ul class="checks">
+          <li>Responde preguntas frecuentes en WhatsApp, Instagram y Facebook.</li>
+          <li>Prepara y programa publicaciones para tus redes.</li>
+          <li>Deriva a una persona cuando la conversación lo necesita.</li>
+          <li>Resume conversaciones y te avisa de oportunidades de venta.</li>
+        </ul>
+        <p class="ideal"><b>Ideal para</b>comercio, servicios, inmobiliarias y empresas con alto volumen de mensajes.</p>
+      </article>
+    </div>
+    <div class="more">
+      <p><strong>¿Otra tarea repetitiva?</strong> <span class="muted">Diseñamos agentes para lo que tu equipo hace todos los días.</span></p>
+      <a class="btn" href={wa} target="_blank" rel="noopener">Cuéntanos cuál</a>
+    </div>
+  </div>
+</section>

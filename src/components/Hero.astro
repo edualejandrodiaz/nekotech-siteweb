@@ -1,0 +1,31 @@
+---
+import site from '../site.json';
+const wa = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}`;
+---
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="label">Agentes de IA para pymes</p>
+      <h1 class="display-xl">Tu equipo deja las tareas repetitivas. <em>Nosotros</em> nos quedamos contigo.</h1>
+      <p class="lead">Creamos agentes de IA que agendan, responden y publican por tu empresa, y el software a medida que los conecta con tu negocio. Con soporte continuo después de la entrega.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href={wa} target="_blank" rel="noopener">Agenda una demo</a>
+        <a class="btn btn-on-noche" href="#agentes">Conoce los agentes</a>
+      </div>
+    </div>
+    <figure class="agent-log" aria-label="Ejemplo de actividad del Agente de Agenda" style="margin:0">
+      <div class="agent-log-top">
+        <span class="status">Agente de Agenda · en línea</span>
+        <span class="tag">Vista de ejemplo</span>
+      </div>
+      <ol>
+        <li><time>23:14</time><span>Reserva confirmada · <strong>martes 10:30</strong></span></li>
+        <li><time>23:15</time><span>Cliente agregado a Google Calendar</span></li>
+        <li><time>07:00</time><span>Recordatorios enviados por WhatsApp</span></li>
+        <li><time>08:42</time><span>Cita reprogramada a pedido del cliente</span></li>
+        <li><time>09:05</time><span>Consulta derivada a una persona del equipo</span></li>
+      </ol>
+      <figcaption class="agent-log-foot">Mientras tu equipo duerme, la agenda se sigue llenando.</figcaption>
+    </figure>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="200 40 280 280">
+  <style>.c{fill:#1F2937}.l{fill:#0F172A;stroke:#F2A93B}@media (prefers-color-scheme:dark){.c{fill:#E5E7EB}}</style>
+  <rect class="c" x="230" y="60" width="60" height="60"/>
+  <rect class="c" x="390" y="60" width="60" height="60"/>
+  <rect class="c" x="220" y="100" width="240" height="200" rx="16"/>
+  <rect class="l" x="255" y="170" width="60" height="60" rx="6" stroke-width="8"/>
+  <rect class="l" x="365" y="170" width="60" height="60" rx="6" stroke-width="8"/>
+  <line x1="315" y1="200" x2="365" y2="200" stroke="#F2A93B" stroke-width="8"/>
+</svg>
