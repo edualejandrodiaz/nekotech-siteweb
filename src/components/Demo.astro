@@ -1,0 +1,17 @@
+---
+import site from '../site.json';
+const wa = `https://wa.me/${site.demoWhatsapp}?text=${encodeURIComponent(site.demoWhatsappMessage)}`;
+---
+<section class="section demo" id="demo">
+  <div class="wrap demo-box">
+    <div class="section-head" style="margin-bottom:0">
+      <p class="label">Pruébalo tú mismo</p>
+      <h2 class="heading">Habla con el Agente de Agenda ahora</h2>
+      <p class="lead">Este número corre una demo real: agenda una hora de ejemplo y pregunta valores de nuestros servicios, como si fueras cliente de una empresa de desarrollo de software.</p>
+    </div>
+    <div class="demo-actions">
+      <a class="btn btn-primary" href={wa} target="_blank" rel="noopener">Probar la demo por WhatsApp</a>
+      <p class="demo-number">{site.demoWhatsapp}</p>
+    </div>
+  </div>
+</section>

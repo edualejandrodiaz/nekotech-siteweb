@@ -1,0 +1,18 @@
+---
+import site from '../site.json';
+const wa = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}`;
+const mail = `mailto:${site.email}`;
+---
+<section class="section contact" id="contacto">
+  <div class="wrap contact-box">
+    <div class="section-head" style="margin-bottom:0">
+      <p class="label">Contacto</p>
+      <h2 class="display">Hablemos de tu proyecto</h2>
+      <p class="lead">Cuéntanos qué tarea repetitiva te gustaría sacarte de encima. Te respondemos por WhatsApp o por correo.</p>
+    </div>
+    <div class="contact-actions">
+      <a class="btn btn-primary" href={wa} target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+      <a class="mail" href={mail}>{site.email}</a>
+    </div>
+  </div>
+</section>

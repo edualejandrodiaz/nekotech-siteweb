@@ -1,0 +1,19 @@
+---
+import CatMark from './CatMark.astro';
+import site from '../site.json';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Nekotech, inicio">
+      <CatMark />
+      <span class="brand-word" aria-hidden="true">nekotech</span>
+    </a>
+    <nav aria-label="Redes">
+      <a href={site.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+      <a href={site.instagram} target="_blank" rel="noopener">Instagram</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <p>© {year} Nekotech · Agentes de IA y software a medida · Chile</p>
+  </div>
+</footer>
