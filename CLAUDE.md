@@ -16,7 +16,7 @@ La fuente oficial es el Design System "Nekotech" (artifact de claude.ai). Reglas
 ## Estructura
 
 - `src/pages/index.astro` arma la página con los componentes de `src/components/`.
-- `src/site.json` guarda los datos de contacto y redes (WhatsApp, correo, LinkedIn, Instagram).
+- `src/site.json` guarda los datos de contacto y redes (WhatsApp, correo, LinkedIn, Instagram) y el número de WhatsApp de la demo pública (`demoWhatsapp`), distinto del WhatsApp real de contacto.
 - `src/components/CatMark.astro` es el isotipo inline; toma el color del texto.
 - `public/llms.txt` describe la empresa para asistentes de IA; actualízalo cuando cambien productos o servicios.
 

@@ -20,8 +20,15 @@ Diagnóstico, prototipo con casos reales, puesta en marcha con capacitación y s
 
 ## Tecnologías
 
-n8n, WhatsApp Cloud API, AWS, Node.js, Angular, Astro, Laravel, Spring, Docker, Capacitor.
+n8n, WhatsApp Cloud API, AWS, Node.js, Angular, Astro, Laravel, Spring, Docker, Capacitor, MySQL, PostgreSQL.
+
+## Demo
+
+El Agente de Agenda tiene un número de WhatsApp de prueba donde cualquiera puede agendar una hora de ejemplo y preguntar valores de servicios, simulando ser cliente de una empresa de desarrollo de software.
 
 ## Contacto
 
 - Sitio: https://nekotech.cl
+- Correo: contacto@nekotech.cl
+- Instagram: https://www.instagram.com/nekotech_cl/
+- LinkedIn: https://www.linkedin.com/company/nekotechcl/
