@@ -1,0 +1,24 @@
+---
+import CatMark from './CatMark.astro';
+
+interface Props {
+  eyebrow: string;
+  title: string;
+  updated: string;
+}
+const { eyebrow, title, updated } = Astro.props;
+---
+<header class="legal-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Nekotech, inicio">
+      <CatMark />
+      <span class="brand-word" aria-hidden="true">nekotech</span>
+    </a>
+    <p class="label">{eyebrow}</p>
+    <h1>{title}</h1>
+    <p class="meta">
+      Responsable: <strong>MARKETING Y SOFTWARE EDUARDO ALEJANDRO DÍAZ AGUILERA E.I.R.L.</strong><br />
+      Última actualización: <strong>{updated}</strong>
+    </p>
+  </div>
+</header>
