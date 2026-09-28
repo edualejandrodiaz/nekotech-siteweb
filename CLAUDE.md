@@ -26,6 +26,10 @@ La fuente oficial es el Design System "Nekotech" (artifact de claude.ai). Reglas
 - `npm run dev` (http://localhost:4321)
 - `npm run build` (genera `dist/`)
 
+## Logo
+
+`public/logos/nekotech-logo-horizontal.svg` tiene el texto "nekotech" convertido a trazos vectoriales (a partir de JetBrains Mono Bold), no depende de ninguna fuente instalada. Existe también `nekotech-logo-horizontal-invertido.svg` para fondos oscuros. Si se regenera el logo, mantener el texto como paths, no como `<text>`.
+
 ## Deploy
 
 - `.github/workflows/deploy.yml` construye el sitio y lo publica en GitHub Pages en cada push a `main` (o manualmente vía `workflow_dispatch`).
