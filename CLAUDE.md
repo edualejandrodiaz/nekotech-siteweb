@@ -25,3 +25,9 @@ La fuente oficial es el Design System "Nekotech" (artifact de claude.ai). Reglas
 - `npm install`
 - `npm run dev` (http://localhost:4321)
 - `npm run build` (genera `dist/`)
+
+## Deploy
+
+- `.github/workflows/deploy.yml` construye el sitio y lo publica en GitHub Pages en cada push a `main` (o manualmente vía `workflow_dispatch`).
+- En GitHub, Settings → Pages → Source debe estar en "GitHub Actions" (no "Deploy from a branch").
+- El dominio propio vive en `public/CNAME` (no en la raíz del repo) para que Astro lo copie a `dist/` en cada build.
